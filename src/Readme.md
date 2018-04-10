@@ -1,4 +1,4 @@
-# Git Course
+# Git Course Hotfix
 
 Link com alias para git : https://jonsuh.com/blog/git-command-line-shortcuts/
 

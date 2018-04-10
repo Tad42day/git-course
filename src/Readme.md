@@ -1,5 +1,6 @@
 # Git Course Testing
 # Comentario para teste com o .gitignore
+# Teste do git stash
 
 Link com alias para git : https://jonsuh.com/blog/git-command-line-shortcuts/
 
@@ -18,5 +19,5 @@ Link com alias para git : https://jonsuh.com/blog/git-command-line-shortcuts/
     hard = Remove todos os commits a partir do reset
 -git checkout : 
 -git branch : Mostra os branchs
--git 
+-git stash : Separa um trabalho em andamento (Work In Progress) em um arquivo específico para poder ser isolado e recuperado depois no mesmo branch ou em outro.
 Modificação

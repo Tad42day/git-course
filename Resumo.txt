@@ -1,0 +1,50 @@
+---CONCEITOS BÁSICOS DO GIT---
+
+-Status dos arquivos
+	-untracked
+		O arquivo acabou de ser adicionado no repositório mas ainda não está sendo visto pelo Git.
+	-unmodified
+		O arquivo está sendo visto pelo Git mas não tem nenhuma alteração.
+	-modified
+		O arquivo está sendo visto pelo Git e possui alterações pendentes.
+	-staged
+		O arquivo está na lista de arquivos que irão entrar no próximo commit.
+
+---COMANDOS DO SISTEMA---
+
+-cd caminho
+	Muda o diretório atual para o caminho especificado.
+
+-mkdir nome_da_pasta
+	Cria uma pasta com o nome_da_pasta no diretório atual.
+
+-ls
+	Mostra os arquivos e pastas existentes no diretório atual.
+
+-vi nome_do_arquivo
+	Abre o arquivo especificado em um editor de texto integrado no console do Git.
+		-:q
+			Sai do editor.
+		-:w	
+			Salva o arquivo
+		-:wq
+			Salva e sai do editor.
+		-i
+			Entra no modo de inserção
+		-Apertar ESC	
+			Sai do modo de inserção.
+
+
+---RESUMO DOS COMANDOS DO GIT---
+
+-git init
+	Inicia um repositório git na pasta atual local.
+
+-git config --global user.name "nome sobrenome"
+	Altera as configurações do Git na máquina para que as alterações saiam com o nome especificado.
+
+-git config --global user.email "email@dominio.com.br"
+	Altera as configurações do Git na máquina para que as alterações saiam com o email especificado. 
+
+-git clone caminho_do_repositorio
+	Clona um repositorio que está em algum site (Github, Gitlab, etc) na pasta local, com todos os seus commits, branchs, tags, etc.

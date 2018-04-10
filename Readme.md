@@ -16,3 +16,5 @@ Link com alias para git : https://jonsuh.com/blog/git-command-line-shortcuts/
     mixed = Altera o status de todos os arquivos do commit para 'unmodified', prontos para serem editados.
     hard = Remove todos os commits a partir do reset
 -git checkout : 
+
+Modificação
